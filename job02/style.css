@@ -1,0 +1,44 @@
+@media screen and (min-width: 1600px){
+	section{
+		width: 100%;
+		margin-top: 10px;
+		display: block;
+	}
+	
+	.box{
+		width: 20%;
+		height:150px;
+		background-color: #88c1d0;
+		margin:10px;
+		display: inline-block;
+	}	
+}
+
+@media screen and (min-width: 768px) and (max-width: 1599px){
+	section{
+	width: 60%;
+}
+
+	.box{
+		width: 40%;
+		height:150px;
+		background-color: #88c1d0;
+		margin: 10px;
+		display: inline-block;
+	}
+
+}
+
+
+@media screen and (max-width: 767px){
+	section{
+		width: 60%;
+	}
+	.box{
+		width: 80%;
+		height:150px;
+		background-color: #88c1d0;
+		margin: 10px;
+		display: inline-block;
+	}
+}
